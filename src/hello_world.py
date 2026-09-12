@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
+"""Hello World -- your first Python program.
 
-# Everything after a hash sign (#) is considered a comment in Python
+Print the exact greeting below to standard output, including the comma
+and exclamation point:
 
-# The print statement could be written on the top-level (zero indentation),
-# but here we have put it inside the main function.
-# This enables TestMyCode (TMC) framework to work correctly.
+    Hello, world!
+"""
 
-# In more complicated programs it is good practise not to clutter the top-level of the program
-# by using a main function as here.
 
 def main():
+    """Print "Hello, world!" to standard output."""
+    # TODO: print the greeting
 
-# This makes sure the main function is not called immediatedly
-# when TMC imports this module
-if __name__ == "__main__": 
+
+if __name__ == "__main__":
     main()
